@@ -32,3 +32,4 @@ jobs:
         with:
           branch: gh-pages
           folder: out
+          token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
