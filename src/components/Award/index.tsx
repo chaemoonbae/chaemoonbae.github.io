@@ -6,7 +6,7 @@ import { DataProps } from "@/types";
 const Award = ({ award }: Pick<DataProps, "award">) => {
   return (
     <div>
-      <SectionTitle>이메일</SectionTitle>
+      <SectionTitle>자기소개서</SectionTitle>
       <div className="flex flex-col gap-24">
         {[...award].reverse().map((certificate) => (
           <AwardItem key={certificate.id} {...certificate} />
