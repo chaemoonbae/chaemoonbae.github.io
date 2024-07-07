@@ -22,7 +22,7 @@ jobs:
 
       - name: Build
         run: |
-          npm run build
+          NEXT_PUBLIC_BASE_PATH="/chaemoonbae.github.io" npm run build
           npm run export
 
       - name: Deploy
