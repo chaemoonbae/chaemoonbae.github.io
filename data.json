@@ -35,7 +35,7 @@
     {
       "id": 1,
       "name": "게시판",
-      "description": "React와 Nextjs를 사용해서 만든 커뮤니티 게시판입니다.\nReact Query를 활용하여 데이터 페칭과 상태관리를 구현하였습니다.",
+      "description": "React와 Nextjs를 활용한 커뮤니티 게시판입니다.",
       "webUrl": "https://bcm-community.vercel.app/",
       "repoUrl": "https://github.com/chatmoon3/community",
       "isTeam": false,
