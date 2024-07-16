@@ -23,8 +23,8 @@ const Home: NextPage<DataProps> = ({
   project,
   // activity,
   education,
-  certificate,
-  // award,
+  // certificate,
+  award,
 }) => {
   return (
     <>
@@ -35,9 +35,9 @@ const Home: NextPage<DataProps> = ({
         {/* <WorkExperience workExperience={workExperience} /> */}
         <Project project={project} />
         {/* <Activity activity={activity} /> */}
-        <Certificate certificate={certificate} />
+        {/* <Certificate certificate={certificate} /> */}
+        <Award award={award} />
         <Education education={education} />
-        {/* <Award award={award} /> */}
       </Layout>
       <Footer contact={information.contact} name={information.name} />
     </>

@@ -35,7 +35,7 @@
     {
       "id": 1,
       "name": "게시판",
-      "description": "React와 Nextjs를 활용한 커뮤니티 게시판입니다.\n회원가입, 로그인, 로그아웃, 세션 관리, 게시글 crud, 댓글 crud가 구현되어 있습니다.\nReact Query를 활용하여 데이터 페칭과 상태관리를 구현하였습니다.\nNext의 SearchParams와 React의 suspense를 사용해 검색기능을 구현하였습니다.",
+      "description": "React와 Nextjs를 사용해서 만든 커뮤니티 게시판입니다.\nReact Query를 활용하여 데이터 페칭과 상태관리를 구현하였습니다.",
       "webUrl": "https://bcm-community.vercel.app/",
       "repoUrl": "https://github.com/chatmoon3/community",
       "isTeam": false,
@@ -84,7 +84,28 @@
   "award": [
     {
       "id": 0,
-      "name": ""
+      "name": "React",
+      "description": "      React hooks를 사용하여 상태관리를 수행합니다.\n      함수형 컴포넌트 문법에 익숙합니다."
+    },
+    {
+      "id": 1,
+      "name": "NextJS",
+      "description": "      Server-Side Rendering(SSR) 작업이 가능합니다.\n      최신 app-router 방식을 사용하여 개발한 경험이 있습니다."
+    },
+    {
+      "id": 2,
+      "name": "TypeScript",
+      "description": "      TypeScript 문법을 사용합니다."
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "description": "      ES6 자바스크립트 문법에 익숙합니다."
+    },
+    {
+      "id": 4,
+      "name": "HTML & CSS",
+      "description": "      웹 표준을 지키려 노력합니다."
     }
   ]
 }
